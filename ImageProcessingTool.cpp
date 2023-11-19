@@ -5,6 +5,7 @@
 #include <QFile>
 #include <QTextStream>
 #include <iostream>
+using namespace std;
 
 void displayImage(const QImage& image) {
     cout << "Image Size: " << image.width() << " x " << image.height() << endl;
